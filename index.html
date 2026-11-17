@@ -4,296 +4,322 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Abdulkareem Ahmed | Design Portfolio</title>
+
+    
+<!-- Google Fonts: Roboto -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- External CSS -->
+<link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
     <!-- Header and Navigation -->
     <header>
-        <h1>Abdulkareem Ahmed</h1>
-        <p>Graphics Designer | Product Designer | WordPress Developer</p>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Abdulkareem Ahmed</h1>
+                <p>Graphics Designer | Product Designer | WordPress Developer</p>
+            </div>
 
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+            
+<nav class="navbar">
+    <ul class="nav-list">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#work">Work</a></li>
+        <li><a class="nav-link" href="#resume">Resume</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+        </div>
     </header>
 
     <main>
 
         <!-- Home Section -->
-        <section id="home">
-            <h2>Welcome to My Creative Space</h2>
-            <p>
-                Hello! I'm Abdulkareem, a creative designer passionate
-                about transforming ideas into meaningful visual
-                experiences and digital products.
-            </p>
-            <p>
-                I combine creativity, design thinking and technology
-                to create solutions that make a difference.
-            </p>
-            <a href="#work">Explore My Work</a>
-        </section>
+        <section id="home" class="hero">
+            <div class="container">
+                <p class="eyebrow">WELCOME TO MY CREATIVE SPACE</p>
 
-        <hr>
+                <h2>Turning Ideas Into <span>Creative Experiences.</span></h2>
+
+                <p>
+                    Hello! I'm Abdulkareem, a creative designer passionate
+                    about transforming ideas into meaningful visual
+                    experiences and digital products.
+                </p>
+
+                <p>
+                    I combine creativity, design thinking and technology
+                    to create solutions that make a difference.
+                </p>
+
+                <a href="#work" class="btn">Explore My Work</a>
+            </div>
+        </section>
 
         <!-- About Section -->
-        <section id="about">
-            <h2>About Me</h2>
+        <section id="about" class="section">
+            <div class="container">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About Me</h2>
 
-            <p>
-                I am a Graphics and Product Designer with over six years
-                of experience in graphic design and two years of
-                experience in product design. I also have experience
-                developing websites with WordPress.
-            </p>
+                <p>
+                    I am a Graphics and Product Designer with over six years
+                    of experience in graphic design and two years of
+                    experience in product design. I also have experience
+                    developing websites with WordPress.
+                </p>
 
-            <p>
-                I enjoy working on brand identities, digital products,
-                marketing materials and creative projects that help
-                businesses communicate effectively.
-            </p>
+                <p>
+                    I enjoy working on brand identities, digital products,
+                    marketing materials and creative projects that help
+                    businesses communicate effectively.
+                </p>
 
-            <h3>My Skills</h3>
-            <ul>
-                <li>Brand Identity Design</li>
-                <li>Graphic Design</li>
-                <li>UI/UX and Product Design</li>
-                <li>WordPress Development</li>
-                <li>Print and Packaging Design</li>
-                <li>Adobe Creative Suite</li>
-            </ul>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>My Skills</h3>
+                        <ul>
+                            <li>Brand Identity Design</li>
+                            <li>Graphic Design</li>
+                            <li>UI/UX and Product Design</li>
+                            <li>WordPress Development</li>
+                            <li>Print and Packaging Design</li>
+                            <li>Adobe Creative Suite</li>
+                        </ul>
+                    </div>
 
-            <h3>Design Tools I Use</h3>
-            <ol>
-                <li>CorelDRAW</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>Figma</li>
-                <li>Canva</li>
-            </ol>
+                    <div class="skill-card">
+                        <h3>Design Tools I Use</h3>
+                        <ol>
+                            <li>CorelDRAW</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe Illustrator</li>
+                            <li>Figma</li>
+                            <li>Canva</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
         </section>
-
-        <hr>
 
         <!-- Work Section -->
-        <section id="work">
-            <h2>My Selected Works</h2>
+        <section id="work" class="section work-section">
+            <div class="container">
+                <p class="eyebrow">MY PORTFOLIO</p>
+                <h2>My Selected Works</h2>
 
-            <p>
-                Here are some of the creative projects I have worked on.
-            </p>
+                <p>Here are some of the creative projects I have worked on.</p>
 
-            <article>
-                <h3>Rock_Qeebah</h3>
-                <p>
-                    A fashion brand identity project focused on
-                    combining modern African fashion with luxury.
-                </p>
-                <a href="https://www.behance.net/gallery/237143325/Rock-Qeebah-Fashion-Brand-Case-Study" target="_blank">
-                    View Project
-                </a>
-            </article>
+                <div class="projects-grid">
 
-            <article>
-                <h3>Chloris Dev</h3>
-                <p>
-                    A social media post design for a Web development 
-                    and digital marketing.
-                </p>
-                <a href="https://www.behance.net/gallery/256418967/Chloris-Dev-%28Social-Media-Post%29-Design" target="_blank">
-                    View Project
-                </a>
-            </article>
+                    <article class="project-card">
+                        <h3>Rock_Qeebah</h3>
+                        <p>
+                            A fashion brand identity project focused on
+                            combining modern African fashion with luxury.
+                        </p>
+                        <a href="https://www.behance.net/gallery/237143325/Rock-Qeebah-Fashion-Brand-Case-Study"
+                           target="_blank" rel="noopener noreferrer">
+                            View Project →
+                        </a>
+                    </article>
 
-            <article>
-                <h3>Skinthesia</h3>
-                <p>
-                    A branding project for a skincare 
-                    and wellness brand.
-                </p>
-                <a href="https://www.behance.net/gallery/226685705/Skinthesia-Brand-Identity" target="_blank">
-                    View Project
-                </a>
-            </article>
+                    <article class="project-card">
+                        <h3>Chloris Dev</h3>
+                        <p>
+                            A social media design project for a web
+                            development and digital marketing brand.
+                        </p>
+                        <a href="https://www.behance.net/gallery/256418967/Chloris-Dev-%28Social-Media-Post%29-Design"
+                           target="_blank" rel="noopener noreferrer">
+                            View Project →
+                        </a>
+                    </article>
 
-            <h3>My Creative Introduction</h3>
+                    <article class="project-card">
+                        <h3>Skinthesia</h3>
+                        <p>
+                            A branding project for a skincare
+                            and wellness brand.
+                        </p>
+                        <a href="https://www.behance.net/gallery/226685705/Skinthesia-Brand-Identity"
+                           target="_blank" rel="noopener noreferrer">
+                            View Project →
+                        </a>
+                    </article>
 
-            <!-- Video Element -->
-            <video width="400" controls>
-                <source src="sample\divineflavoredgroup.com.mp4" type="video/mp4">
-                Your browser does not support the video element.
-            </video>
+                </div>
 
-            <p>Video introduction to my creative journey.</p>
+                <!-- Video Introduction -->
+                <div class="media-section">
+                    <h3>My Creative Introduction</h3>
 
-            <!-- Audio Element -->
-            <h3>Listen to My Introduction</h3>
+                    <video controls>
+                        <source src="sample/divineflavoredgroup.com.mp4"
+                                type="video/mp4">
+                        Your browser does not support the video element.
+                    </video>
 
-            <audio controls>
-                <source src="Sound Recordings\Abdulkareem Ahmed.m4a" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+                    <p>Video introduction to my creative journey.</p>
+                </div>
 
+                <!-- Audio Introduction -->
+                <div class="media-section">
+                    <h3>Listen to My Introduction</h3>
+
+                    <audio controls>
+                        <source src="Sound Recordings/Abdulkareem Ahmed.m4a"
+                                type="audio/mp4">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+            </div>
         </section>
-
-        <hr>
 
         <!-- Resume Section -->
-        <section id="resume">
-            <h2>My Resume</h2>
+        <section id="resume" class="section">
+            <div class="container">
+                <p class="eyebrow">MY BACKGROUND</p>
+                <h2>My Resume</h2>
 
-            <h3>Professional Experience</h3>
+                <h3>Professional Experience</h3>
 
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Role</th>
-                        <th>Experience</th>
-                        <th>Area of Work</th>
-                    </tr>
-                </thead>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Role</th>
+                                <th>Experience</th>
+                                <th>Area of Work</th>
+                            </tr>
+                        </thead>
 
-                <tbody>
-                    <tr>
-                        <td>Graphics Designer</td>
-                        <td>6 Years</td>
-                        <td>Branding and Visual Communication</td>
-                    </tr>
+                        <tbody>
+                            <tr>
+                                <td>Graphics Designer</td>
+                                <td>6 Years</td>
+                                <td>Branding and Visual Communication</td>
+                            </tr>
 
-                    <tr>
-                        <td>Product Designer</td>
-                        <td>2 Years</td>
-                        <td>UI/UX and Digital Products</td>
-                    </tr>
+                            <tr>
+                                <td>Product Designer</td>
+                                <td>2 Years</td>
+                                <td>UI/UX and Digital Products</td>
+                            </tr>
 
-                    <tr>
-                        <td>WordPress Developer</td>
-                        <td>1 Year</td>
-                        <td>Website Development</td>
-                    </tr>
-                </tbody>
-            </table>
+                            <tr>
+                                <td>WordPress Developer</td>
+                                <td>1 Year</td>
+                                <td>Website Development</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-            <h3>Education</h3>
-            <p>
-                Bachelor's Degree in Mining Engineering
-            </p>
+                <div class="resume-details">
+                    <h3>Education</h3>
 
-            <p>
-                Federal University of Technology, Akure (FUTA).
-            </p>
+                    <p>Bachelor's Degree in Mining Engineering</p>
+                    <p>Federal University of Technology, Akure (FUTA).</p>
 
-            <h3>Career Objective</h3>
-            <p>
-                To continuously improve my creative and technical
-                abilities while contributing to meaningful projects
-                and building impactful digital experiences.
-            </p>
+                    <h3>Career Objective</h3>
+
+                    <p>
+                        To continuously improve my creative and technical
+                        abilities while contributing to meaningful projects
+                        and building impactful digital experiences.
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <hr>
-
         <!-- Contact Section -->
-        <section id="contact">
-            <h2>Get In Touch</h2>
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Get In Touch</h2>
 
-            <p>
-                Have a project, collaboration or opportunity in mind?
-                I'd love to hear from you.
-            </p>
+                <p>
+                    Have a project, collaboration or opportunity in mind?
+                    I'd love to hear from you.
+                </p>
 
-            <form action="#" method="post">
+                <form action="#" method="post">
 
-                <div>
-                    <label for="fullname">Full Name:</label>
-                    <input
-                        type="text"
-                        id="fullname"
-                        name="fullname"
-                        placeholder="Enter your full name"
-                        required>
-                </div>
+                    <div class="form-group">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname"
+                               placeholder="Enter your full name" required>
+                    </div>
 
-                <br>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="Enter your email" required>
+                    </div>
 
-                <div>
-                    <label for="email">Email Address:</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your email"
-                        required>
-                </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject"
+                               placeholder="What is this about?" required>
+                    </div>
 
-                <br>
+                    <div class="form-group">
+                        <label for="service">Service Interested In:</label>
 
-                <div>
-                    <label for="subject">Subject:</label>
-                    <input
-                        type="text"
-                        id="subject"
-                        name="subject"
-                        placeholder="What is this about?"
-                        required>
-                </div>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="branding">Brand Identity</option>
+                            <option value="graphic-design">Graphic Design</option>
+                            <option value="product-design">Product Design</option>
+                            <option value="wordpress">WordPress Development</option>
+                        </select>
+                    </div>
 
-                <br>
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="6"
+                                  placeholder="Write your message here..."
+                                  required></textarea>
+                    </div>
 
-                <div>
-                    <label for="service">Service Interested In:</label>
+                    <button type="submit" class="btn">Send Message</button>
 
-                    <select id="service" name="service">
-                        <option value="">Select a service</option>
-                        <option value="branding">Brand Identity</option>
-                        <option value="graphic-design">Graphic Design</option>
-                        <option value="product-design">Product Design</option>
-                        <option value="wordpress">WordPress Development</option>
-                    </select>
-                </div>
-
-                <br>
-
-                <div>
-                    <label for="message">Your Message:</label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="6"
-                        placeholder="Write your message here..."
-                        required></textarea>
-                </div>
-
-                <br>
-
-                <button type="submit">Send Message</button>
-
-            </form>
+                </form>
+            </div>
         </section>
 
     </main>
 
-    <hr>
-
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Abdulkareem Ahmed. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2026 Abdulkareem Ahmed. All Rights Reserved.</p>
 
-        <p>
-            <a href="https://www.behance.net/phemmyabdulka" target="_blank">Behance</a> |
-            <a href="https://www.linkedin.com/in/abdulkareem-ahmed-gmnse-98abba1b3/" target="_blank">LinkedIn</a> |
-            <a href="https://www.instagram.com/shortest_ahmed?xtok=MTFtMDdjNmZ2ejA5cQ==" target="_blank">Instagram</a>
-        </p>
+            <div class="social-links">
+                <a href="https://www.behance.net/phemmyabdulka"
+                   target="_blank" rel="noopener noreferrer">Behance</a>
 
-        <a href="#home">Back to Top</a>
+                <a href="https://www.linkedin.com/in/abdulkareem-ahmed-gmnse-98abba1b3/"
+                   target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+                <a href="https://www.instagram.com/shortest_ahmed/"
+                   target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+
+            <a href="#home">Back to Top ↑</a>
+        </div>
     </footer>
 
 </body>
